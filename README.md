@@ -4,16 +4,12 @@ Este projeto é uma API REST desenvolvida com Node.js, Express e MySQL, estrutur
 
 A aplicação segue o padrão CRUD (Create, Read, Update e Delete), permitindo operações de cadastro, consulta, atualização e remoção de registros de professores.
 
----
-
 ## Tecnologias utilizadas
 
 - JavaScript
 - Node.js
 - Express
 - MySQL
-
----
 
 ## 📁 Estrutura do projeto
 
@@ -58,8 +54,6 @@ CREATE TABLE professores (
   salario    DECIMAL(10,2) NOT NULL
 );
 ```
-
----
 
 ## Como executar
 
@@ -120,7 +114,6 @@ npm start
 
 O servidor estará disponível em: `http://localhost:3000`
 
----
 
 ## 🔀 Endpoints da API
 Esta seção apresenta os endpoints da API e o resultado de testes que foram realizados com o **Postman**.
@@ -140,9 +133,8 @@ GET /professores
 ```
 
 **Exemplo de resposta utilizando o Postman:**
+<img width="1431" height="751" alt="listarProfs" src="https://github.com/user-attachments/assets/a6c3020a-85b7-4ed8-aa88-a0801501e516" />
 
-
----
 
 ### Buscar professor por ID
 
@@ -151,9 +143,8 @@ GET /professores/:id
 ```
 
 **Exemplo de resposta utilizando o Postman:**
+<img width="1431" height="398" alt="listarID" src="https://github.com/user-attachments/assets/e5374d5e-7204-40cb-a61d-db1e5b8af4f1" />
 
-
----
 
 ### Cadastrar professor
 
@@ -172,8 +163,7 @@ POST /professores
 ```
 
 **Exemplo de resposta utilizando o Postman:**
-
----
+<img width="1427" height="486" alt="cadastro" src="https://github.com/user-attachments/assets/93832285-0961-471d-a580-760ae3c57a26" />
 
 ### Atualizar professor
 
@@ -192,8 +182,7 @@ PUT /professores/:id
 ```
 
 **Exemplo de resposta utilizando o Postman:**
-
----
+<img width="1433" height="497" alt="atualizar" src="https://github.com/user-attachments/assets/1e2a5d3f-65a7-4532-8f5d-c4b70a231cd8" />
 
 ### Deletar professor
 
@@ -202,8 +191,8 @@ DELETE /professores/:id
 ```
 
 **Exemplo de resposta utilizando o Postman:**
+<img width="1435" height="297" alt="deletar" src="https://github.com/user-attachments/assets/6e6ee616-60f3-441b-acd4-c3660b98f1c0" />
 
----
 
 ## Autor
 
