@@ -11,7 +11,7 @@ A aplicação segue o padrão CRUD (Create, Read, Update e Delete), permitindo o
 - Express
 - MySQL
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 projeto-api-professores/
@@ -32,8 +32,6 @@ projeto-api-professores/
 ├── package.json
 └── README.md
 ```
-
----
 
 ## Banco de dados
 
@@ -133,6 +131,7 @@ GET /professores
 ```
 
 **Exemplo de resposta utilizando o Postman:**
+
 <img width="1431" height="751" alt="listarProfs" src="https://github.com/user-attachments/assets/a6c3020a-85b7-4ed8-aa88-a0801501e516" />
 
 
@@ -143,7 +142,9 @@ GET /professores/:id
 ```
 
 **Exemplo de resposta utilizando o Postman:**
-<img width="1431" height="398" alt="listarID" src="https://github.com/user-attachments/assets/e5374d5e-7204-40cb-a61d-db1e5b8af4f1" />
+
+<img width="1437" height="396" alt="image" src="https://github.com/user-attachments/assets/b8d35e06-1979-4516-89cf-05b16d7e5c8f" />
+
 
 
 ### Cadastrar professor
@@ -155,15 +156,17 @@ POST /professores
 **Body (JSON):**
 ```json
 {
-  "nome": "Maria Eduarda",
+  "nome": "Evandro",
   "disciplina": "Desenvolvimento Web",
-  "email": "maria@ifce.edu.br",
-  "salario": "3000.00"
+  "email": "evandro@ifce.edu.br",
+  "salario": "10000.00"
 }
 ```
 
 **Exemplo de resposta utilizando o Postman:**
-<img width="1427" height="486" alt="cadastro" src="https://github.com/user-attachments/assets/93832285-0961-471d-a580-760ae3c57a26" />
+
+<img width="1438" height="486" alt="image" src="https://github.com/user-attachments/assets/515b3116-8761-4827-856d-14434d8107ea" />
+
 
 ### Atualizar professor
 
@@ -182,6 +185,7 @@ PUT /professores/:id
 ```
 
 **Exemplo de resposta utilizando o Postman:**
+
 <img width="1433" height="497" alt="atualizar" src="https://github.com/user-attachments/assets/1e2a5d3f-65a7-4532-8f5d-c4b70a231cd8" />
 
 ### Deletar professor
@@ -191,6 +195,7 @@ DELETE /professores/:id
 ```
 
 **Exemplo de resposta utilizando o Postman:**
+
 <img width="1435" height="297" alt="deletar" src="https://github.com/user-attachments/assets/6e6ee616-60f3-441b-acd4-c3660b98f1c0" />
 
 
