@@ -5,7 +5,7 @@ const mysql = require('mysql2/promise');
 const conexao = mysql.createPool({
   host: 'localhost',     // endereço do servidor MySQL
   user: 'root',         // usuário do banco
-  password: 'Choquito.2046', // senha (deve ser alterada para a sua senha)
+  password: 'sua_senha', // senha (deve ser alterada para a sua senha)
   database: 'escola'    // nome do banco de dados
 });
 
